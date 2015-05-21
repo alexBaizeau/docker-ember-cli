@@ -5,5 +5,5 @@ MAINTAINER Dan Lynn <docker@danlynn.org>
 RUN npm install -g ember-cli@0.2.0-beta.1 bower@1.3.12 phantomjs@1.9.15
 
 WORKDIR /usr/src/app
-ENTRYPOINT ["/usr/local/bin/ember"]
+ENTRYPOINT ["/usr/src/app/node_modules/ember-cli/bin/ember"]
 CMD ["help"]
