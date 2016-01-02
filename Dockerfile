@@ -1,4 +1,4 @@
-FROM node:0.10.36
+FROM node:latest
 
 # Originally from Dan Lynn <docker@danlynn.org>
 
