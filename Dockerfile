@@ -3,7 +3,7 @@ FROM node:5.10
 # Originally from Dan Lynn <docker@danlynn.org>
 
 RUN npm set progress=false
-RUN npm install -g ember-cli@2.4.2 bower@1.7.7 phantomjs-prebuilt@2.1.5
+RUN npm install -g npm@3.8.6 ember-cli@2.4.2 bower@1.7.7 phantomjs-prebuilt@2.1.5
 
 # install watchman
 RUN \
