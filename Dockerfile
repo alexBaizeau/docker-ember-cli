@@ -1,4 +1,4 @@
-FROM node:5.9
+FROM node:5.10
 
 # Originally from Dan Lynn <docker@danlynn.org>
 
