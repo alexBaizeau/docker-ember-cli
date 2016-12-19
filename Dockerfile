@@ -5,6 +5,10 @@ FROM node:5.10
 RUN npm set progress=false
 RUN npm install -g ember-cli@2.4.2 bower@1.7.7 phantomjs-prebuilt@2.1.5
 
+# install yarn
+RUN curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version 0.18.1
+ENV PATH "$PATH:/root/.yarn/bin"
+
 # install watchman
 RUN \
   git clone https://github.com/facebook/watchman.git &&\
