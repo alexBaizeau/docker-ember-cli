@@ -3,7 +3,7 @@ FROM node:6.10
 # Originally from Dan Lynn <docker@danlynn.org>
 
 RUN npm set progress=false
-RUN npm install -g ember-cli@2.11.1 bower@1.8.0 phantomjs-prebuilt@2.1.5
+RUN npm install -g ember-cli@2.11.1 bower@1.8.0 phantomjs-prebuilt@2.1.10
 
 # install yarn
 RUN curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version 0.21.3
