@@ -6,7 +6,7 @@ RUN npm set progress=false
 RUN npm install -g ember-cli@2.13.2 bower@1.8.0 phantomjs-prebuilt@2.1.14
 
 # install yarn
-RUN curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version 0.24.5
+RUN curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version 0.27.5
 ENV PATH "$PATH:/root/.yarn/bin"
 
 # install watchman
